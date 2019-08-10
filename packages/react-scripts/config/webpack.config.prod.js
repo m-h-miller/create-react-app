@@ -291,6 +291,7 @@ module.exports = {
     new webpack.DefinePlugin(env.stringified),
     // Minify the code.
     new webpack.optimize.UglifyJsPlugin({
+      exclude: /multicoin-address-validator/,
       compress: {
         warnings: false,
         // Disabled because of an issue with Uglify breaking seemingly valid code:

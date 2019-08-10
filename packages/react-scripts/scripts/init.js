@@ -26,6 +26,8 @@ module.exports = function(
   originalDirectory,
   template
 ) {
+  console.log(chalk.red('VERY IMPORTANT:'));
+  console.log(' This is the alphapoint fork of create-react-app');
   const ownPackageName = require(path.join(__dirname, '..', 'package.json'))
     .name;
   const ownPath = path.join(appPath, 'node_modules', ownPackageName);
