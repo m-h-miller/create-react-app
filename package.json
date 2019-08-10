@@ -1,6 +1,5 @@
 {
   "name": "alphapoint-create-react-app",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
